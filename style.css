@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2f1893;
+  padding: 60px 200px;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.nav--items {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.nav--items > .active {
+  color: gray;
+}
+
+.primary--btn {
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+
+.purchase--btn {
+  background-color: #e93a7d;
+  padding: 5px 13px;
+}
+
+.main--container {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.main--containerContent {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+}
+
+.main--containerContent > .title {
+  font-size: 40px;
+}
+
+.main--containerContent > .description {
+  font-size: 20px;
+  font-style: normal;
+}
+
+.learnMore--btn {
+  background-color: #e93a7d;
+  padding: 7px 16px;
+  align-self: self-start;
+}
+
+.main--containerForm {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  gap: 20px;
+  padding: 40px;
+  width: 325px;
+}
+
+.main--containerForm > h1 {
+  color: #1e0e62;
+  align-self: center;
+}
+
+.main--containerForm > .input {
+  padding: 9px;
+  padding-left: 20px;
+  border: 1px solid #808080;
+  border-radius: 50px;
+}
+
+.main--containerForm > .terms {
+  display: flex;
+  gap: 5px;
+  color: #d0d0d7;
+}
+
+.main--containerForm input[type="checkbox"] {
+  accent-color: #25dac5;
+}
+
+.signIn--btn {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: #482be7;
+}
+
+.orLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b1b0bc;
+}
+
+.orLine hr {
+  flex: 1;
+  margin: 0 10px;
+  border: none;
+  border-top: 1px solid #f0eff2;
+}
+
+.twitter--btn {
+  background-color: #1da1f2;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.haveAccount {
+  align-self: center;
+  color: #b1b0bc;
+  font-size: small;
+}
+
+.haveAccount > .signIn {
+  color: #1da1f2;
+}
