@@ -6,7 +6,7 @@
 
 body {
   background-color: #2f1893;
-  padding: 60px 200px;
+  padding: 100px 300px;
   font-family: sans-serif;
 }
 
@@ -21,6 +21,11 @@ body {
   align-items: center;
   list-style-type: none;
   gap: 30px;
+  font-size: 20px;
+}
+
+nav > span {
+  font-size: 25px;
 }
 
 .nav--items > .active {
@@ -31,11 +36,12 @@ body {
   color: #fff;
   border: none;
   border-radius: 50px;
+  font-size: 15px;
 }
 
 .purchase--btn {
   background-color: #e93a7d;
-  padding: 5px 13px;
+  padding: 7px 16px;
 }
 
 .main--container {
@@ -49,21 +55,21 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 350px;
+  width: 450px;
 }
 
 .main--containerContent > .title {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .main--containerContent > .description {
   font-size: 20px;
-  font-style: normal;
+  width: 320px;
 }
 
 .learnMore--btn {
   background-color: #e93a7d;
-  padding: 7px 16px;
+  padding: 10px 25px;
   align-self: self-start;
 }
 
@@ -72,8 +78,8 @@ body {
   flex-direction: column;
   background-color: #fff;
   gap: 20px;
-  padding: 40px;
-  width: 325px;
+  padding: 45px;
+  width: 375px;
 }
 
 .main--containerForm > h1 {
@@ -99,8 +105,7 @@ body {
 }
 
 .signIn--btn {
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding: 9px 0;
   background-color: #482be7;
 }
 
@@ -120,8 +125,7 @@ body {
 
 .twitter--btn {
   background-color: #1da1f2;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding: 9px 0;
 }
 
 .haveAccount {
